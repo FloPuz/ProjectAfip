@@ -6,7 +6,7 @@ function ServiceHandler() {
     $data = new stdClass();
     $data->Output = "Hello World!";
 
-    return json_encode($data);
+    return var_dump($data);
 };
 
 $app = new \Slim\App;
