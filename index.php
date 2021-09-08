@@ -6,7 +6,7 @@ function ServiceHandler() {
     
     $data = "Hello l'afip c'est le projet de puz!";
 
-    return var_dump($data);
+    return print_r($data);
 };
 
 $app = new \Slim\App;
