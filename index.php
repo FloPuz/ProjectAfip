@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 
 function ServiceHandler() {
     
-    $data = "Hello l'afip c'est le projet de puz!";
+    $data = "Hello ";
 
     return json_encode($data);
 };
